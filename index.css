@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+body{
+    background-color: rgb(38, 37, 37);
+    color: rgb(192, 192, 178);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.outerContainer{
+    background-color: rgb(30, 9, 113);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 50%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(245, 203, 203);
+    text-shadow:
+        0 3px 6px rgba(0, 0, 0, 0.25),      /* slight depth */
+        0 0 12px rgba(255, 255, 255, 0.6);  /* bright white glow */
+}
+
+
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.userInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 70%;
+    padding: 0.3rem;
+    border-radius: 4px;
+}
+
+button{
+    width: 25%;
+    border-radius: 4px;
+    background-color: rgb(248, 249, 248);
+    padding: 0.3rem;
+    
+}
+button:hover {
+    background-color: #656968;
+    cursor: pointer;
+}
+
+.circle{
+    height: 140px;
+    width: 140px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(2, 54, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(7, 129, 31);
+    font-weight: bold;
+    background: conic-gradient(rgb(7, 129, 31) var(--progress-degree, 0%), rgb(2, 54, 2) 0%);
+}
+
+.progressBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+
+.cardBox{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(177, 224, 141);
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    padding: 10px;
+    justify-content: space-evenly;
+    visibility: hidden;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: larger;
+    border: 0px solid rgb(9, 0, 0);
+    border-radius: 10%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7),
+                0 4px 10px rgba(0, 0, 0, 0.4);
+                
+}
+.inBox {
+    margin: auto;
+    color: rgb(0, 0, 0);
+    
+}
