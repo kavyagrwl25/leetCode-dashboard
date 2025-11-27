@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LeetMetric</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <div class="outerContainer">
-        <h1>LeetMetric</h1>
-        <div class="userContainer">
-            <p>Enter the username :</p>
-            <div class="userInput">
-            <input type="text" placeholder="Enter the username here..." class="input">
-            <button class="sButton">Search</button>
-            </div>
-        </div>
-        <div class="statsContainer">
-            <div class="progressBox">
-                <div class="progress circle">
-                    <div class="easyProgress">Easy
-                        <span class="easyProgress"></span>
-                    </div>
-                </div>
-                <div class="progress circle">
-                    <div class="mediumProgress">Medium
-                        <span class="mediumProgress"></span>
-                    </div>
-                </div>
-                <div class="progress circle">
-                    <div class="hardProgress ">Hard
-                        <span class="hardProgress"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="cardBox">
-                <div class="nameBox inBox"></div>
-                <div class="solvedBox inBox"></div>
-                <div class="rankBox inBox"></div>
-                <div class="acceptRate inBox"></div>
-            </div>
-        </div>
+  <div class="outerContainer">
+    <h1>LeetMetric</h1>
+
+    <div class="userContainer">
+      <p>Enter the username :</p>
+      <div class="userInput">
+        <input type="text" placeholder="Enter the username here..." class="input" />
+        <button class="sButton">Search</button>
+      </div>
     </div>
-    <script src="index.js"></script>
+
+    <div class="statsContainer">
+      <div class="progressBox">
+        <div class="circle easyCircle" aria-hidden="true">
+          <div class="progressInner">
+            <span class="label">Easy</span>
+            <span class="value">0/0</span>
+          </div>
+        </div>
+
+        <div class="circle mediumCircle" aria-hidden="true">
+          <div class="progressInner">
+            <span class="label">Medium</span>
+            <span class="value">0/0</span>
+          </div>
+        </div>
+
+        <div class="circle hardCircle" aria-hidden="true">
+          <div class="progressInner">
+            <span class="label">Hard</span>
+            <span class="value">0/0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardBox">
+        <div class="nameBox inBox">Username: -</div>
+        <div class="solvedBox inBox">Solved: -</div>
+        <div class="rankBox inBox">Rank: -</div>
+        <div class="acceptRate inBox">Acceptance: -</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
