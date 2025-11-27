@@ -1,49 +1,68 @@
-🚀 LeetCode Stats Viewer
+LeetMetric – LeetCode User Stats Visualizer
 
-A simple and clean web app to fetch and display LeetCode user statistics using a public API.
-Built with HTML, CSS, and Vanilla JavaScript.
+LeetMetric is a simple and clean web app that lets you search any LeetCode username and view their stats in an attractive UI.
+It shows:
 
-📌 Features
+Total problems solved
 
-🔍 Search any LeetCode username
+Global ranking
 
-📊 Displays stats:
+Acceptance rate
 
-Easy / Medium / Hard questions solved
+Easy / Medium / Hard solved stats
 
-Total solved vs total questions
+Animated circular progress visualizations for each difficulty
 
-Global Rank
+Built using HTML, CSS, and JavaScript with real-time data from a public API.
 
-Acceptance Rate
+🚀 Features
+✅ Real-time LeetCode user stats
 
-⚠️ Error Handling
+Fetches data such as:
 
-Shows “No user found” for invalid usernames
+Total solved & total questions
 
-Validates the username format
+Acceptance rate
 
-Handles API failures gracefully
+Global rank
 
-🎨 Clean UI (customizable)
+Easy / Medium / Hard breakdown
 
-🧠 Tech Stack
+🎯 Circular progress indicators
 
-HTML5
+Each difficulty (Easy, Medium, Hard) has:
 
-CSS3
+A conic-gradient progress circle
 
-JavaScript (ES6+)
+Live animated percentage
 
-Fetch API
+Dynamic colors based on difficulty
 
-LeetCode Stats API
-(http://leetcode-stats-api.herokuapp.com/)
+📱 Clean & responsive UI
+
+Designed with pure CSS
+
+Looks good on mobile and desktop
+
+Simple UX — just enter username & click Search
+
+⚠️ Smart Error Handling
+
+Handles invalid usernames
+
+Detects users that do not exist
+
+Displays fallback UI if the API gives bad data
+
+🛠️ Tech Stack
+Component	Technology
+Frontend	HTML, CSS, JavaScript
+API	https://leetcode-stats-api.herokuapp.com/
+Charts	Pure CSS conic gradients
+No frameworks	100% vanilla JS
 
 
-Sharing Some Screenshots:
+<img width="1033" height="729" alt="image" src="https://github.com/user-attachments/assets/cb730b30-e74f-416b-a8e4-8359c4436976" />
 
-<img width="1809" height="875" alt="image" src="https://github.com/user-attachments/assets/a161be21-0154-4239-8ad0-07ae1641c0e7" />
-
-<img width="933" height="646" alt="image" src="https://github.com/user-attachments/assets/b76fd1dc-1f8a-4439-9d95-1a08ee31fe7f" />
+<img width="1027" height="773" alt="image" src="https://github.com/user-attachments/assets/704cc661-a756-4127-96d4-a90079aaa826" />
 
